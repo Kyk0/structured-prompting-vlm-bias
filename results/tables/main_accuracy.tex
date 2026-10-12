@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Exact match accuracy (\%) across prompt conditions. Best result per model in \textbf{bold}.}
+\label{tab:main}
+\begin{tabular}{lccccc}
+\hline
+Model & Baseline & Debiased & Cot & Ccot & Doublecheck \\
+\hline
+qwen3vl\_8b & 19.32 & 20.19 & \textbf{20.87} & 19.65 & 19.25 \\
+internvl3\_8b & 20.15 & 21.01 & 16.70 & \textbf{22.59} & 21.05 \\
+gemma3\_12b & 17.56 & \textbf{19.11} & 19.04 & 17.28 & 17.74 \\
+glm41v\_9b & 22.95 & 20.73 & \textbf{24.64} & 20.01 & 23.31 \\
+\hline
+\end{tabular}
+\end{table}

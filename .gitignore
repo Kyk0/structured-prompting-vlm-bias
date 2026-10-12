@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# uncompressed outputs: the repo keeps the .jsonl.gz copies
+results/raw/*.jsonl
+results/extracted/*.jsonl
