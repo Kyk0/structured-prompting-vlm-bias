@@ -1,7 +1,8 @@
 # Can Structured Prompting Overcome Knowledge Bias in Vision-Language Models?
 
 Kyrylo Kolesnichenko, Martas Ambraziunas.
-*Information Society and University Studies (IVUS 2026), CEUR Workshop Proceedings.* Presented, to appear.
+*Proceedings of the 31st International Conference on Information Society and University Studies (IVUS 2026),*
+*Kaunas, Lithuania, May 12, 2026.* Presented; CEUR Workshop Proceedings, to appear.
 
 Vision-language models often answer from what they remember instead of what is in the image:
 shown an Adidas logo with four stripes, a model may still answer three. Vo et al. measured this
@@ -115,7 +116,9 @@ bias-aligned error.
 @inproceedings{kolesnichenko2026structured,
   title     = {{Can Structured Prompting Overcome Knowledge Bias in Vision-Language Models?}},
   author    = {Kolesnichenko, Kyrylo and Ambraziunas, Martas},
-  booktitle = {Information Society and University Studies (IVUS 2026), CEUR Workshop Proceedings},
+  booktitle = {Proceedings of the 31st International Conference on Information Society and University Studies (IVUS 2026)},
+  address   = {Kaunas, Lithuania},
+  series    = {CEUR Workshop Proceedings},
   year      = {2026},
   note      = {To appear}
 }
